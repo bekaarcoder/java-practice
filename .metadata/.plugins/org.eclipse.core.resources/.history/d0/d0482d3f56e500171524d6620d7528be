@@ -1,0 +1,14 @@
+package Practice;
+
+import java.util.Scanner;
+
+public class GetInputs {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Some text");
+		String text = input.nextLine();
+		System.out.println(text);
+	}
+
+}

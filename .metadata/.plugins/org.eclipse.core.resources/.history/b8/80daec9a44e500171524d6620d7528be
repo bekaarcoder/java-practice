@@ -1,0 +1,9 @@
+package car_dealership;
+
+public class Employee {
+	public void handlePurchase(Customer cust, Vehicle vehicle, boolean finance ) {
+		if(finance == true) {
+			double loanAmount = vehicle.getPrice() - cust.getCash();
+		}
+	}
+}
